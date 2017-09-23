@@ -1,9 +1,115 @@
 * {margin: 0px; padding 0px;}
 
-body {
-	height: 100vh; 
+#background {
+	background-color: yellow;
+}
+
+.backgroundchange {
+     background-color: #AD310B;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+#circle:hover {
+    opacity: 1;
+    transition: all 500ms ease;
+
+}
+#circle:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.container {
 	width: 100vw;
-	background-color: rgba(221, 192, 189, 0.68);
+	height: 100vh;
+	position: fixed;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background-color: red;
+}
+
+
+
+#circle {
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 10;
+	right: 10;
+	opacity: 0.5;
+}
+
+.animation{
+	animation: move 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes move{
+	from{bottom: 10;
+	right: 10;
+    }
+    to{
+    	bottom:calc(50% - 25px);
+        right: calc(50% - 25px);
+    /*}*/
+}
+
+/*.selected {
+    background:#f00;
+}*/
+
+.rain {
+	background:#0D343A;
+	background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+	background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(0,0,0,1) 100%);
+	overflow:hidden;}
+}
+
+.drop {
+  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+  background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+	width:1px;
+	height:89px;
+	position: absolute;
+	bottom:200px;
+	-webkit-animation: fall .63s linear infinite;
+  -moz-animation: fall .63s linear infinite;
+  
+}
+
+/* animate the drops*/
+@-webkit-keyframes fall {
+	to {margin-top:900px;}
+}
+@-moz-keyframes fall {
+	to {margin-top:900px;}
 }
 
 

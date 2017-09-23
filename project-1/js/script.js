@@ -1,58 +1,47 @@
+
 $(document).ready(function(){
+//    $( "#circle" ).click(function() {
+//   $( this ).addClass("animation");
+// });
 
-var video = document.querySelector("#videoElement");
- 
-navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
- 
-if (navigator.getUserMedia) {       
-    navigator.getUserMedia({video: true}, handleVideo, videoError);
-}
- 
-function handleVideo(stream) {
-    video.src = window.URL.createObjectURL(stream);
-}
- 
-function videoError(e) {
-    // do something
+  $( "#circle" ).click(function() {
+  $( this ).addClass("animation");
+  
+  
+  //background color change.
+      if($("#background").attr('style'))
+    $("#background").removeAttr('style');
+      else
+    $("#background").css('background', 'darkblue')
+
+   // number of drops created.
+var nbDrop = 858; 
+
+// function to generate a random number range.
+function randRange( minNum, maxNum) {s
+  return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
 }
 
-$('#turnoff').click(function(){
-	$('#videoElement').fadeOut();
+// function to generate drops
+function createRain() {
+
+	for( i=1;i<nbDrop;i++) {
+	var dropLeft = randRange(0,1600);
+	var dropTop = randRange(-1000,1400);
+
+	$('.rain').append('<div class="drop" id="drop'+i+'"></div>');
+	$('#drop'+i).css('left',dropLeft);
+	$('#drop'+i).css('top',dropTop);
+	}
+
+}
+// Make it rain
+createRain();
+
 });
 
-$('#turnon').click(function(){
-	$('#videoElement').fadeIn();
-});
+   });
 
-	
-	// add .draggable to any element you want to enable dragging on
-	$('.drag').draggable();
-	$('.resize').resizable();
 
-	$('.right img').each(function(){
-		$height = $(window).height();
-		$right = Math.floor(Math.random()*255);
-		$top = Math.floor(Math.random()*$height);
-		$(this).css('top',$top);
-		$(this).css('right',$right);
-	
-	});
-
-	$( "#draggable" ).draggable();
-
-	$( "#draggable2").draggable();
-
-	$('.left img').each(function(){
-
-			$height = $(window).height();
-			$left = Math.floor(Math.random()*255);
-			$top = Math.floor(Math.random()*$height);
-			$(this).css('top',$top);
-			$(this).css('left',$left);
-
-		});
-
-	
-});
 
 
