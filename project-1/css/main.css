@@ -1190,7 +1190,7 @@
   transition: all 1s ease-in-out;
 }
 
-	.c37 {
+	.c43 {
       transform-origin: 50% 500px;
     animation: circling .05s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
     position: absolute;
@@ -1199,7 +1199,7 @@
 
   	}
 
-  	.c38 {
+  	.c44 {
       transform-origin: 50% 500px;
     animation: circling .03s cubic-bezier(0.8, -4, 1, 1.05) infinite;
     position: absolute;
@@ -1207,7 +1207,7 @@
     	top: -60px;
   	}
 
-  	.c39 {
+  	.c45 {
 		transform-origin: 50% 500px;
     	animation: circling .09s cubic-bezier(1, -0.3, 0, 0.67) infinite;
     	position: absolute;
@@ -1215,7 +1215,7 @@
     	top: -60px;
   	}
 
-  	.c40 {
+  	.c46 {
   	    transform-origin: 50% 500px;
     	animation: circling 1s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
     	position: absolute;
@@ -1223,7 +1223,7 @@
     	top: -60px;
   	}
 
-  	.c41 {
+  	.c47 {
   			transform-origin:50% 500px;
   		animation: circling .1s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
@@ -1231,7 +1231,7 @@
     	top: -60px;
   	}
 
-  	.c42 {
+  	.c48 {
   		transform-origin:50% 500px;
   		animation: circling .2s linear infinite;
   		position: absolute;
