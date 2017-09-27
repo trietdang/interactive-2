@@ -77,6 +77,17 @@ if(n == 3 ) {
     ;
   }
 
+      if(n == 11) {
+         $('.small-circle7').css('opacity', '1');
+    ;
+  }
+
+
+      if(n == 12) {
+         $('.small-circle8').css('opacity', '1');
+    ;
+  }
+
 
    
    // .css('opacity') = '0.6';
