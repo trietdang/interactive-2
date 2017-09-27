@@ -1,0 +1,29 @@
+* {margin: 10px; padding:0px;}
+
+body {
+    background-color: white;
+    background-size: cover;
+}
+
+#background {
+	background-color: black;
+	transition: 1s all;
+}
+
+
+h1 {
+  font-family: 'Telegrafico', sans-serif;
+  font-size: 24px;
+  margin: .2em .0em;
+  color: black;
+}
+
+p, a {
+	font-family: 'helvetica', sans-serif;
+	font-size: 15px;
+}
+
+h3 {
+		font-family: 'helvetica', sans-serif;
+	font-size: 15px;
+}

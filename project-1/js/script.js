@@ -1,28 +1,31 @@
 
 $(document).ready(function(){
 
+
   var n = 0;
   var type =
 //    $( "#circle" ).click(function() {
 //   $( this ).addClass("animation");
 // });
-
+  
   $( "#circle" ).click(function() {
+    
+   
     $("body").addClass('bg-'+n);
 
     //increasements n
     n++;
     //ì n í >5, reset n
-    if(n>9) {
+    if(n>15) {
       n=0;
     }
 
     if(n == 1) {
   $( this ).addClass("animation");
-  
+
    
   //background color change.
-      if($("#background").attr('style'))
+    if($("#background").attr('style'))
     $("#background").removeAttr('style');
       // else
     $("#background").css('background', 'darkblue');
@@ -34,12 +37,49 @@ if(n == 2 ) {
     ;
   }
 
+
 if(n == 3 ) {
     $('.small-circle-fast').fadeTo( "fast", Math.random());
     ;
   }
 
+  if(n == 4 ) {
+    $('.small-circle3').fadeTo( "fast", Math.random());
+    ;
+  }
+
+  if(n == 5 ) {
+    $('.small-circle4').css('opacity', '1');
+    ;
+  }
+
+   if(n == 6 ) {
+    $('.small-circle5').css('opacity', '0.7');
+    ;
+  }
+
+    if(n == 7) {
+    $("#background").css('background', 'yellow');
+    ;
+  }
+     if(n == 8) {
+    $(".small-circle, .small-circle-fast, .small-circle3, .small-circle4, .small-circle5").addClass("border2");
+    ;
+  }
+
+    if(n == 9) {
+         $("#background").css('background', 'black');
+    ;
+  }
+
+    if(n == 10) {
+         $('.small-circle6').css('opacity', '1');
+    ;
+  }
+
+
    
+   // .css('opacity') = '0.6';
 
 
    // number of drops created.
@@ -70,7 +110,10 @@ if(n == 3 ) {
 
 
 
+
+
    });
+
 
 
 
