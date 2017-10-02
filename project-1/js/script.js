@@ -16,7 +16,7 @@ $(document).ready(function(){
     //increasements n
     n++;
     //ì n í >5, reset n
-    if(n>15) {
+    if(n>21) {
       n=0;
     }
 
@@ -88,8 +88,48 @@ if(n == 3 ) {
     ;
   }
 
+      if(n == 13) {
+         $('.small-circle9').css('opacity', '1');
+    ;
+  }
 
+      if(n == 14) {
+         $('.small-circle10').css('opacity', '1');
+    ;
+  }
    
+      if(n == 15) {
+         $('.small-circle11').css('opacity', '1');
+    ;
+  }
+
+   if(n == 16) {
+         $('.small-circle12').css('opacity', '1');
+  }
+
+    if(n == 17) {
+         $("#background").css('background', '#02fe8a');
+    ;
+  }
+
+     if(n == 18) {
+         $('.small-circle13').css('opacity', '1');
+  }
+
+      if(n == 19) {
+         $("#background").css('background', 'orange');
+    ;
+  }
+
+     if(n == 20) {
+         $('.small-circle14').css('opacity', '1');
+  }
+
+      if(n == 21) {
+         $("#background").css('background', 'black');
+    ;
+  }
+
    // .css('opacity') = '0.6';
 
 

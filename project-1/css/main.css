@@ -64,11 +64,11 @@
 	height: 50px;
 	border-radius: 50%;
 	position: absolute;
-	bottom: 10;
-	right: 10;
 	opacity: 0.5;
+	 bottom:calc(50% - 25px);
+     right: calc(50% - 25px);
 }
-
+/*
 .animation{
 	animation: move 1s;
 	animation-fill-mode: forwards;
@@ -82,7 +82,7 @@
     	bottom:calc(50% - 25px);
         right: calc(50% - 25px);
     /*}*/
-}
+}*/
 
 /*.selected {
     background:#f00;
@@ -144,8 +144,8 @@
   		transform-origin: 50% 200px;
     	animation: circling 4s linear infinite;
     	position: absolute;
-  		left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
   	
 
@@ -153,16 +153,16 @@
       transform-origin: 50% 200px;
     animation: circling 4s cubic-bezier(0.4, 0, 1, 1) infinite;
     position: absolute;
-  	left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c3 {
 		transform-origin: 50% 200px;
     	animation: circling 4s cubic-bezier(0.07, 0.5, 0, 1.32) infinite;
     	position: absolute;
-    	left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
 
@@ -170,24 +170,24 @@
   	    transform-origin: 70% 200px;
     	animation: circling 4s cubic-bezier(1, -0.64, 0, 1.54) infinite;
     	position: absolute;
-  		left: 690px;
-    	top: 200px;
+      bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c5 {
   			transform-origin:50% 200px;
   		animation: circling 4s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 200px;
+      bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c6 {
   		transform-origin:50% 200px;
   		animation: circling 4s linear infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 200px;
+  	    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
 	@keyframes across {
@@ -312,8 +312,8 @@
   		transform-origin: 50% 200px;
     	animation: circling 1s linear infinite;
     	position: absolute;
-  	left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
 
   	}
 
@@ -321,16 +321,16 @@
       transform-origin: 50% 200px;
     animation: circling 2s cubic-bezier(0.4, 0, 1, 1) infinite;
     position: absolute;
-  	left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c9 {
 		transform-origin: 50% 200px;
     	animation: circling 2s cubic-bezier(0.07, 0.5, 0, 1.32) infinite;
     	position: absolute;
-    	left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c10 {
@@ -338,24 +338,24 @@
     	animation: circling 2s cubic-bezier(1, -0.64, 0, 1.54) infinite;
     	background-color: #FFCD55;
     	position: absolute;
-  		left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c11 {
   			transform-origin:50% 200px;
   		animation: circling 1s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c12 {
   		transform-origin:50% 200px;
   		animation: circling 2s linear infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 200px;
+    bottom: calc(52% - -135px);
+    right: calc(50% - 25px);
   	}
 
 	@keyframes across {
@@ -473,8 +473,8 @@
   		transform-origin: 50% 300px;
     	animation: circling .5s linear infinite;
     	position: absolute;
-  	left: 690px;
-    	top: 100px;
+    bottom: calc(56% - -135px);
+    right: calc(50% - 25px);
 
   	}
 
@@ -482,40 +482,40 @@
       transform-origin: 50% 300px;
     animation: circling 1s cubic-bezier(0.4, 0, 1, 1) infinite;
     position: absolute;
-  	left: 690px;
-    	top: 100px;
+    bottom: calc(56% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c15 {
 		transform-origin: 50% 300px;
     	animation: circling 1s cubic-bezier(0.07, 0.5, 0, 1.32) infinite;
     	position: absolute;
-    	left: 690px;
-    	top: 100px;
+    bottom: calc(56% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c16 {
   	    transform-origin: 70% 300px;
     	animation: circling 1s cubic-bezier(1, -0.64, 0, 1.54) infinite;
     	position: absolute;
-  		left: 690px;
-    	top: 100px;
+    bottom: calc(56% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c17 {
   			transform-origin:50% 300px;
   		animation: circling .5s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 100px;
+    bottom: calc(56% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c18 {
   		transform-origin:50% 300px;
   		animation: circling 1s linear infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 100px;
+    bottom: calc(56% - -135px);
+    right: calc(50% - 25px);
   	}
 
 	@keyframes across {
@@ -632,8 +632,8 @@
   		transform-origin: 50% 320px;
     	animation: circling .5s linear infinite;
     	position: absolute;
-  	left: 690px;
-    	top: 70px;
+    bottom: calc(60% - -135px);
+    right: calc(50% - 25px);
 
   	}
 
@@ -641,16 +641,16 @@
       transform-origin: 50% 320px;
     animation: circling 1s cubic-bezier(0.4, 0, 1, 1) infinite;
     position: absolute;
-  	left: 690px;
-    	top: 70px;
+    bottom: calc(60% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c21 {
 		transform-origin: 50% 320px;
     	animation: circling 1s cubic-bezier(0.07, 0.5, 0, 1.32) infinite;
     	position: absolute;
-    	left: 690px;
-    	top: 70px;
+    bottom: calc(60% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c22 {
@@ -658,24 +658,24 @@
     	animation: circling 1s cubic-bezier(1, -0.64, 0, 1.54) infinite;
     	background-color:  #FFCD55;
     	position: absolute;
-  		left: 690px;
-    	top: 70px;
+    bottom: calc(60% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c23 {
   			transform-origin:50% 320px;
   		animation: circling .5s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 100px;
+    bottom: calc(60% - -135px);
+    right: calc(50% - 25px);
   	}
 
   	.c24 {
   		transform-origin:50% 320px;
   		animation: circling 1s linear infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 70px;
+    bottom: calc(60% - -135px);
+    right: calc(50% - 25px);
   	}
 
 	@keyframes across {
@@ -793,8 +793,8 @@
       transform-origin: 80% 400px;
     animation: circling 1s cubic-bezier(1, -0.3, 0, 1.02) infinite;
     position: absolute;
-    left: 690px;
-    top: 5px;
+    bottom: calc(63% - -135px);
+    right: calc(48% - 25px);
 
   	}
 
@@ -802,40 +802,47 @@
       transform-origin: 50% 400px;
     animation: circling 4s cubic-bezier(0.8, -4, 1, 1.05) infinite;
     position: absolute;
-  	left: 690px;
-    	top: 5px;
+    bottom: calc(63% - -135px);
+    right: calc(48% - 25px);
+
   	}
+  
 
   	.c27 {
 		transform-origin: 50% 400px;
     	animation: circling 3s cubic-bezier(1, -0.3, 0, 0.67) infinite;
     	position: absolute;
-    	left: 690px;
-    	top: 5px;
+    bottom: calc(63% - -135px);
+    right: calc(48% - 25px);
+
   	}
 
   	.c28 {
   	    transform-origin: 70% 400px;
     	animation: circling 5s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
     	position: absolute;
-  		left: 690px;
-    	top: 5px;
+    bottom: calc(63% - -135px);
+    right: calc(48% - 25px);
+
+
   	}
 
   	.c29 {
   			transform-origin:50% 400px;
   		animation: circling 3s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 5px;
+    bottom: calc(63% - -135px);
+    right: calc(48% - 25px);
+
   	}
 
   	.c30 {
   		transform-origin:50% 400px;
   		animation: circling 4s linear infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: 5px;
+    bottom: calc(63% - -135px);
+    right: calc(48% - 25px);
+
   	}
 
 	@keyframes across {
@@ -1118,8 +1125,9 @@
       transform-origin: 50% 450px;
     animation: circling .1s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
     position: absolute;
-    left: 690px;
-    top: -60px;
+    bottom: calc(70% - -135px);
+    right: calc(49% - 25px);
+
 
   	}
 
@@ -1127,40 +1135,45 @@
       transform-origin: 50% 450px;
     animation: circling .3s cubic-bezier(0.8, -4, 1, 1.05) infinite;
     position: absolute;
-  	left: 690px;
-    	top: -60px;
+    bottom: calc(70% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c39 {
 		transform-origin: 50% 450px;
     	animation: circling .1s cubic-bezier(1, -0.3, 0, 0.67) infinite;
     	position: absolute;
-    	left: 690px;
-    	top: -60px;
+    bottom: calc(70% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c40 {
   	    transform-origin: 50% 450px;
     	animation: circling 2s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
     	position: absolute;
-  		left: 690px;
-    	top: -60px;
+    bottom: calc(70% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c41 {
   			transform-origin:50% 450px;
   		animation: circling .2s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: -60px;
+     bottom: calc(70% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c42 {
   		transform-origin:50% 450px;
   		animation: circling 2s linear infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: -60px;
+    bottom: calc(70% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
 	@keyframes circling {
@@ -1194,8 +1207,9 @@
       transform-origin: 50% 500px;
     animation: circling .05s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
     position: absolute;
-    left: 690px;
-    top: -100px;
+    bottom: calc(78% - -135px);
+    right: calc(49% - 25px);
+
 
   	}
 
@@ -1203,40 +1217,45 @@
       transform-origin: 50% 500px;
     animation: circling .03s cubic-bezier(0.8, -4, 1, 1.05) infinite;
     position: absolute;
-  	left: 690px;
-    top: -100px;
+    bottom: calc(78% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c45 {
 		transform-origin: 50% 500px;
     	animation: circling .09s cubic-bezier(1, -0.3, 0, 0.67) infinite;
     	position: absolute;
-    	left: 690px;
-    	top: -100px;
+    bottom: calc(78% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c46 {
   	    transform-origin: 50% 500px;
     	animation: circling 1s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
     	position: absolute;
-  		left: 690px;
-    	top: -100px;
+       bottom: calc(78% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c47 {
   			transform-origin:50% 500px;
   		animation: circling .1s cubic-bezier(0, 1.1, 1, -0.41) infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: -100px;
+    bottom: calc(78% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
   	.c48 {
   		transform-origin:50% 500px;
   		animation: circling .2s linear infinite;
   		position: absolute;
-  	  	left: 690px;
-    	top: -100px;
+    bottom: calc(78% - -135px);
+    right: calc(49% - 25px);
+
   	}
 
 	@keyframes circling {
@@ -1248,6 +1267,481 @@
 	    }
 	}
 
+
+.small-circle9 {
+	background-color: rgba(0, 243, 176, 0.74);
+	width: 30px;
+	height: 30px;
+	border-radius: 0%;
+	position: absolute;
+	opacity: 0;
+}
+
+
+.small-circle9 {
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+	.c49 {
+      transform-origin: 50% 550px;
+    animation: circling .5s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
+    position: absolute;
+    bottom: calc(82% - -135px);
+    right: calc(49% - 25px);
+
+
+  	}
+
+  	.c50 {
+      transform-origin: 50% 550px;
+    animation: circling .3s cubic-bezier(0.8, -4, 1, 1.05) infinite;
+    position: absolute;
+    bottom: calc(82% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c51 {
+		transform-origin: 50% 550px;
+    	animation: circling .9s cubic-bezier(1, -0.3, 0, 0.67) infinite;
+    	position: absolute;
+    bottom: calc(82% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c52 {
+  	    transform-origin: 50% 550px;
+    	animation: circling 1s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
+    	position: absolute;
+    bottom: calc(82% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c53 {
+  			transform-origin:50% 550px;
+  		animation: circling .1s cubic-bezier(0, 1.1, 1, -0.41) infinite;
+  		position: absolute;
+    bottom: calc(82% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c54 {
+  		transform-origin:50% 550px;
+  		animation: circling .1s linear infinite;
+  		position: absolute;
+    bottom: calc(82% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+	@keyframes circling {
+	    from { 
+	    	transform:rotate(0deg); 
+	    }
+	    to { 
+	    	transform:rotate(360deg); 
+	    }
+	}
+
+
+
+.small-circle10 {
+	background-color: rgba(0, 55, 255, 0.72);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 0;
+}
+
+
+.small-circle10 {
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+	.c55 {
+      transform-origin: 50% 600px;
+    animation: circling 4s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
+    position: absolute;
+    bottom: calc(86% - -135px);
+    right: calc(49% - 25px);
+
+
+  	}
+
+  	.c56 {
+      transform-origin: 50% 600px;
+    animation: circling 3s cubic-bezier(0.8, -4, 1, 1.05) infinite;
+    position: absolute;
+    bottom: calc(86% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c57 {
+		transform-origin: 50% 600px;
+    	animation: circling 4s cubic-bezier(1, -0.3, 0, 0.67) infinite;
+    	position: absolute;
+    bottom: calc(86% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c58 {
+  	    transform-origin: 50% 600px;
+    	animation: circling 3s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
+    	position: absolute;
+    bottom: calc(86% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c59 {
+  			transform-origin:50% 600px;
+  		animation: circling 5s cubic-bezier(0, 1.1, 1, -0.41) infinite;
+  		position: absolute;
+    bottom: calc(86% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c60 {
+  		transform-origin:50% 600px;
+  		animation: circling 5s linear infinite;
+  		position: absolute;
+    bottom: calc(86% - -135px);
+    right: calc(49% - 25px);
+  	}
+  		@keyframes circling {
+	    from { 
+	    	transform:rotate(0deg); 
+	    }
+	    to { 
+	    	transform:rotate(360deg); 
+	    }
+  }
+
+.small-circle11 {
+	background-color: rgb(119, 34, 255);
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 0;
+}
+
+
+.small-circle11 {
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+	.c61 {
+      transform-origin: 50% 650px;
+    animation: circling 2.5s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
+    position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+
+
+  	}
+
+  	.c62 {
+      transform-origin: 50% 650px;
+    animation: circling 1.5s cubic-bezier(0.8, -4, 1, 1.05) infinite;
+    position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c63 {
+		transform-origin: 50% 650px;
+    	animation: circling 2s cubic-bezier(1, -0.3, 0, 0.67) infinite;
+    	position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c64 {
+  	    transform-origin: 50% 650px;
+    	animation: circling 1.5s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
+    	position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c65 {
+  			transform-origin:50% 650px;
+  		animation: circling 2.5s cubic-bezier(0, 1.1, 1, -0.41) infinite;
+  		position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c66 {
+  		transform-origin:50% 650px;
+  		animation: circling 2.5s linear infinite;
+  		position: absolute;
+    bottom: calc(90% - -135px);
+    right: calc(49% - 25px);
+  	}
+  		@keyframes circling {
+	    from { 
+	    	transform:rotate(0deg); 
+	    }
+	    to { 
+	    	transform:rotate(360deg); 
+	    }
+  }
+
+.small-circle12 {
+	background-color: rgba(204, 255, 0, 0.55);
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 0;
+}
+
+
+.small-circle12 {
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+	.c67 {
+      transform-origin: 50% 700px;
+    animation: circling 2.5s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
+    position: absolute;
+    bottom: calc(92% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c68 {
+      transform-origin: 50% 700px;
+    animation: circling 1.5s cubic-bezier(0.8, -4, 1, 1.05) infinite;
+    position: absolute;
+    bottom: calc(92% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c69 {
+		transform-origin: 50% 700px;
+    	animation: circling 2s cubic-bezier(1, -0.3, 0, 0.67) infinite;
+    	position: absolute;
+    bottom: calc(92% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c70 {
+  	    transform-origin: 50% 700px;
+    	animation: circling 1.5s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
+    	position: absolute;
+    bottom: calc(92% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c71 {
+  			transform-origin:50% 700px;
+  		animation: circling 2.5s cubic-bezier(0, 1.1, 1, -0.41) infinite;
+  		position: absolute;
+    bottom: calc(92% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c72 {
+  		transform-origin:50% 700px;
+  		animation: circling 2.5s linear infinite;
+  		position: absolute;
+    bottom: calc(92% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  		@keyframes circling {
+	    from { 
+	    	transform:rotate(0deg); 
+	    }
+	    to { 
+	    	transform:rotate(360deg); 
+	    }
+  }
+
+
+.small-circle13 {
+	background-color: rgba(207, 255, 59, 0.89);
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 0;
+}
+
+
+.small-circle13 {
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+	.c73 {
+      transform-origin: 50% 700px;
+    animation: circling 1.75s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
+    position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c74 {
+      transform-origin: 50% 700px;
+    animation: circling 0.75s cubic-bezier(0.8, -4, 1, 1.05) infinite;
+    position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c75 {
+		transform-origin: 50% 700px;
+    	animation: circling 1s cubic-bezier(1, -0.3, 0, 0.67) infinite;
+    	position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c76 {
+  	    transform-origin: 50% 700px;
+    	animation: circling 3s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
+    	position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c77 {
+  			transform-origin:50% 700px;
+  		animation: circling 1.75s cubic-bezier(0, 1.1, 1, -0.41) infinite;
+  		position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c78 {
+  		transform-origin:50% 700px;
+  		animation: circling 1.9s linear infinite;
+  		position: absolute;
+    bottom: calc(88% - -135px);
+    right: calc(49% - 25px);
+  	}
+  	
+  		@keyframes circling {
+	    from { 
+	    	transform:rotate(0deg); 
+	    }
+	    to { 
+	    	transform:rotate(360deg); 
+	    }
+  }
+
+  .small-circle14 {
+	background-color: rgba(0, 255, 20, 0.83);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 0;
+}
+
+
+.small-circle14 {
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+	.c79 {
+      transform-origin: 50% 780px;
+    animation: circling 7s cubic-bezier(0.4, -0.49, 0.6, 0.63) infinite;
+    position: absolute;
+    bottom: calc(90% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c80 {
+      transform-origin: 50% 780px;
+    animation: circling 5s cubic-bezier(0.8, -4, 1, 1.05) infinite;
+    position: absolute;
+    bottom: calc(90% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c81 {
+		transform-origin: 50% 780px;
+    	animation: circling 1s cubic-bezier(1, -0.3, 0, 0.67) infinite;
+    	position: absolute;
+    bottom: calc(90% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c82 {
+  	    transform-origin: 50% 780px;
+    	animation: circling 3s cubic-bezier(0.96, 0.99, 0, 0.96) infinite;
+    	position: absolute;
+    bottom: calc(90% - -135px);
+    right: calc(49% - 25px);
+  	}
+
+  	.c83 {
+  			transform-origin:50% 780px;
+  		animation: circling 7s cubic-bezier(0, 1.1, 1, -0.41) infinite;
+  		position: absolute;
+    bottom: calc(90% - -135px);
+    right: calc(49% - 25px);
+
+  	}
+
+  	.c84 {
+  		transform-origin:50% 780px;
+  		animation: circling 9s linear infinite;
+  		position: absolute;
+    bottom: calc(90% - -135px);
+    right: calc(49% - 25px);
+  	}
+  	
+  		@keyframes circling {
+	    from { 
+	    	transform:rotate(0deg); 
+	    }
+	    to { 
+	    	transform:rotate(360deg); 
+	    }
+  }
 /*	//hover*/
 
 /*	.small-circle4:hover {
