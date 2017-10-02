@@ -2,6 +2,9 @@
 $(document).ready(function(){
 
 
+      $("*").hide();
+      $("*").fadeIn({duration:2000});
+
   var n = 0;
   var type =
 //    $( "#circle" ).click(function() {
@@ -16,7 +19,7 @@ $(document).ready(function(){
     //increasements n
     n++;
     //ì n í >5, reset n
-    if(n>21) {
+    if(n>25) {
       n=0;
     }
 
@@ -127,6 +130,15 @@ if(n == 3 ) {
 
       if(n == 21) {
          $("#background").css('background', 'black');
+    ;
+  }
+
+
+    if(n ==22) {
+      $("body").fadeOut({
+        duration:2000, 
+        complete:function()
+          {window.location.reload();}});
     ;
   }
 
