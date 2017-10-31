@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Typography</title>
+
+<script src="js/jquery.min.js"></script>
+  
+  <!-- load jQuery UI (has built in Dragging support - do not edit) -->
+  <script src="js/jquery-ui.min.js"></script>
+
+  <!-- load my script (where dragging is enabled) -->
+  <script src="js/script.js"></script>
+
+	<link rel="stylesheet" href="CSS/main.css">
+<!-- 	<script src="https://code.jquery.com/jqure-1.10.2.js"></script>
+	<script src="assets/script.js"></script> -->
+
+</head>
+<style>
+</style>
+
+<body>
+
+<!-- 		<div class="acontainer color atitle">
+			<div class="a astroke1 ">
+			</div>
+			<div class="a ahoz1">
+			</div>
+			<div class="a ahoz2">
+			</div>
+			<div class="a astroke2 ">
+			</div>
+			<div class="circle acircle1">
+			</div>
+			<div class="circle acircle2">
+			</div>
+		</div>
+ -->
+
+		<div class="acontainer color">
+			<div class="a astroke1 ">
+			</div>
+			<div class="a ahoz1">
+			</div>
+			<div class="a ahoz2">
+			</div>
+			<div class="a astroke2 ">
+			</div>
+			<div class="circle acircle1">
+			</div>
+			<div class="circle acircle2">
+			</div>
+		</div>
+
+		<div class="bcontainer color">
+			<div class="b bstroke1">
+			</div>
+			<div class="b bhoz1">
+			</div>
+			<div class="b bhoz2">
+			</div>
+			<div class="b bhoz3">
+			</div>
+			<div class="b bstroke2 ">
+			</div>
+			<div class="b bstroke3">
+			</div>
+			<div class="circle bcircle1">
+			</div>
+			<div class="circle bcircle2">
+			</div>
+		</div>
+
+		<div class="ccontainer color">
+			<div class="c cstroke1">
+			</div>
+			<div class="c choz1">
+			</div>
+			<div class="c choz2">
+			</div>
+			<div class="c cstroke2 ccurve2">
+			</div>
+			<div class="c cstroke3 ccurve3">
+			</div>
+			<div class="circle ccircle1">
+			</div>
+		</div>
+
+
+		<div class="dcontainer color">
+			<div class="d dstroke1">
+			</div>
+			<div class="d dhoz1">
+			</div>
+			<div class="d dhoz2">
+			</div>
+			<div class="d dstroke2">
+			</div>
+			<div class="circle dcircle1">
+			</div>
+		</div>
+
+		<div class="econtainer color">
+			<div class="e estroke1">
+			</div>
+			<div class="e ehoz1">
+			</div>
+			<div class="e ehoz2">
+			</div>
+			<div class="e ehoz3">
+			</div>
+			<div class="circle ecircle1">
+			</div>
+		</div>
+
+		<div class="fcontainer color">
+			<div class="f fstroke1">
+			</div>
+			<div class="f fhoz1">
+			</div>
+			<div class="f fhoz2">
+			</div>
+			<div class="circle fcircle1">
+			</div>
+			<div class="circle fcircle2">
+			</div>
+		</div>
+
+
+		<div class="gcontainer color">
+			<div class="g gstroke1">
+			</div>
+			<div class="g ghoz1">
+			</div>
+			<div class="g ghoz2">
+			</div>
+			<div class="g ghoz3">
+			</div>
+			<div class="g gstroke2">
+			</div> 
+			<div class="circle gcircle1">
+			</div>
+			<div class="circle gcircle2">
+			</div>
+		</div>
+
+
+		<div class="hcontainer color">
+			<div class="h hstroke1">
+			</div>
+			<div class="h hhoz1">
+			</div>
+			<div class="h hstroke2">
+			</div> 
+			<div class="circle hcircle1">
+			</div>
+			<div class="circle hcircle2">
+			</div>
+		</div>
+
+
+		<div class="icontainer color">
+			<div class="i istroke1">
+			</div>
+			<div class="circle icircle1">
+			</div>
+			<div class="circle icircle2">
+			</div>
+		</div>	
+
+		<div class="jcontainer color">
+			<div class="j jstroke1">
+			</div>
+			<div class="j jhoz1">
+			</div>
+			<div class="j jstroke2">
+			</div>
+			<div class="circle jcircle1">
+			</div>
+		</div>
+
+		<div class="kcontainer color">
+			<div class="k kstroke1">
+			</div>
+			<div class="k khoz1">
+			</div>
+			<div class="k kstroke2">
+			</div> 
+			<div class="k kstroke3">
+			</div> 
+			<div class="circle kcircle1">
+			</div>
+			<div class="circle kcircle2">
+			</div>
+		</div>	
+
+		<div class="lcontainer color">
+			<div class="l lstroke1">
+			</div>
+			<div class="l lhoz1">
+			</div>
+			<div class="circle lcircle1">
+			</div>
+		</div>
+
+		<div class="mcontainer color">
+			<div class="m mstroke1 ">
+			</div>
+			<div class="circle mcircle1">
+			</div>
+			<div class="m mhoz1">
+			</div>
+			<div class="m mstroke2">
+			</div> 
+			<div class="m mstroke3">
+			</div> 
+			<div class="circle mcircle2">
+			</div>
+		</div>				
+
+		<div class="ncontainer color">
+			<div class="n nstroke1 ">
+			</div>
+			<div class="n nhoz1">
+			</div>
+			<div class="n nstroke2 ">
+			</div> 
+			<div class="circle ncircle1">
+			</div>
+			<div class="circle ncircle2">
+			</div>
+		</div>		
+
+		<div class="ocontainer color">
+			<div class="o ostroke1 ">
+			</div>
+			<div class="o ohoz1">
+			</div>
+			<div class="o ohoz2">
+			</div>
+			<div class="o ostroke2 ">
+			</div> 
+			<div class="circle ocircle1">
+			</div>
+			<div class="circle ocircle2">
+			</div>
+
+		</div>		
+
+		<div class="pcontainer color">
+			<div class="p pstroke1">
+			</div>
+			<div class="p phoz1">
+			</div>
+			<div class="p phoz2">
+			</div>
+			<div class="p pstroke2">
+			</div> 
+			<div class="circle pcircle1">
+			</div>
+			<div class="circle pcircle2">
+			</div>
+		</div>	
+
+		<div class="qcontainer color">
+			<div class="q qstroke1">
+			</div>
+			<div class="q qhoz1">
+			</div>
+			<div class="q qhoz2">
+			</div>
+			<div class="q qstroke2">
+			</div> 
+			<div class="circle qcircle1">
+			</div>
+			<div class="circle qcircle2">
+			</div>
+		</div>	
+
+		<div class="rcontainer color">
+			<div class="r rstroke1">
+			</div>
+			<div class="r rhoz1">
+			</div>
+			<div class="r rhoz2">
+			</div>
+			<div class="r rstroke2">
+			</div> 
+			<div class="r rstroke3">
+			</div> 
+			<div class="circle rcircle1">
+			</div>
+			<div class="circle rcircle2">
+			</div>
+		</div>	
+
+		<div class="scontainer color">
+			<div class="s sstroke1">
+			</div>
+			<div class="s sstroke2">
+			</div>
+			<div class="s shoz1">
+			</div>
+			<div class="s shoz2">
+			</div>
+			<div class="s shoz3">
+			</div>
+			<div class="s sstroke3 ">
+			</div> 
+			<div class="s sstroke4 scurve4">
+			</div> 
+			<div class="circle scircle1">
+			</div>
+			<div class="circle scircle2">
+			</div>
+			<div class="circle scircle3">
+			</div>
+		</div>	
+
+
+		<div class="tcontainer color">
+			<div class="t tstroke1">
+			</div>
+			<div class="t thoz1">
+			</div>
+			<div class="circle tcircle1">
+			</div>
+		</div>	
+
+		<div class="ucontainer color">
+			<div class="u ustroke1">
+			</div>
+			<div class="u uhoz1">
+			</div>
+			<div class="u ustroke2">
+			</div> 
+			<div class="circle ucircle1">
+			</div>
+		</div>	
+
+		<div class="vcontainer color">
+			<div class="v vstroke1">
+			</div>
+			<div class="v vhoz1">
+			</div>
+			<div class="circle vcircle1">
+			</div>
+		</div>	
+
+		<div class="wcontainer color">
+			<div class="w wstroke1 ">
+			</div>
+			<div class="w whoz1">
+			</div>
+			<div class="w whoz2">
+			</div>
+			<div class="w wstroke2 ">
+			</div> 
+			<div class="w wstroke3 ">
+			</div> 
+			<div class="circle wcircle1">
+			</div>
+			<div class="circle wcircle2">
+			</div>
+			<div class="circle wcircle3">
+			</div>
+		</div>	
+
+		<div class="xcontainer color">
+			<div class="x xstroke1">
+			</div>
+			<div class="x xstroke2">
+			</div>
+			<div class="x xhoz1">
+			</div>
+			<div class="x xstroke3">
+			</div> 
+			<div class="x xstroke4">
+			</div>
+			<div class="circle xcircle1">
+			</div>
+			<div class="circle xcircle2">
+			</div>
+			<div class="circle xcircle3">
+			</div>
+			<div class="circle xcircle4">
+			</div>
+		</div>			
+
+		<div class="ycontainer color">
+			<div class="y ystroke1 ">
+			</div>
+			<div class="y ystroke2 ">
+			</div>
+			<div class="y yhoz1">
+			</div>
+			<div class="y yhoz2">
+			</div>
+			<div class="y ystroke3 ">
+			</div> 
+			<div class="circle ycircle1">
+			</div>
+			<div class="circle ycircle2">
+			</div>
+		</div>		
+
+		<div class="zcontainer color">
+			<div class="z zstroke1">
+			</div>
+			<div class="z zhoz1">
+			</div>
+			<div class="z zhoz2">
+			</div>
+			<div class="circle zcircle1">
+			</div>
+			<div class="circle zcircle2">
+			</div>
+		</div>	
+
+
+
+
+
+
+
+<!-- Full typeface session -->
+	<div class="fullcontainer">
+		<div class="acontainer color bfull">
+			<div class="a fulle astroke1">
+			</div>
+			<div class="a fulle ahoz1">
+			</div>
+			<div class="a fulle  ahoz2">
+			</div>
+			<div class="a fulle astroke2 acurve2">
+			</div>
+			<div class="circle fullcircle acircle1">
+			</div>
+			<div class="circle fullcircle acircle2">
+			</div>
+		</div>
+
+		<div class="bcontainer color bfull">
+			<div class="b fulle bstroke1">
+			</div>
+			<div class="b fulle bhoz1">
+			</div>
+			<div class="b fulle bhoz2">
+			</div>
+			<div class="b fulle bhoz3">
+			</div>
+			<div class="b fulle bstroke2 bcurve2">
+			</div>
+			<div class="b fulle bstroke3 bcurve3">
+			</div>
+			<div class="circle fullcircle bcircle1">
+			</div>
+			<div class="circle fullcircle bcircle2">
+			</div>
+		</div>	
+
+		<div class="ccontainer color bfull">
+			<div class="c fulle  cstroke1">
+			</div>
+			<div class="c  fulle choz1">
+			</div>
+			<div class="c  fulle choz2">
+			</div>
+			<div class="c  fulle cstroke2 ccurve2">
+			</div>
+			<div class="c  fulle cstroke3 ccurve3">
+			</div>
+			<div class="circle fullcircle ccircle1">
+			</div>
+		</div>
+
+
+		<div class="dcontainer color bfull">
+			<div class="d  fulle dstroke1">
+			</div>
+			<div class="d  fulle dhoz1">
+			</div>
+			<div class="d  fulle dhoz2">
+			</div>
+			<div class="d  fulle dcurve2 dstroke2">
+			</div>
+			<div class="circle fullcircle dcircle1">
+			</div>
+		</div>
+
+		<div class="econtainer color bfull">
+			<div class="e fulle ecurve1 estroke1">
+			</div>
+			<div class="e fulle  ehoz1">
+			</div>
+			<div class="e fulle  ehoz2">
+			</div>
+			<div class="e fulle  ehoz3">
+			</div>
+			<div class="circle fullcircle ecircle1">
+			</div>
+		</div>
+
+		<div class="fcontainer color bfull">
+			<div class="f fulle fcurve1 fstroke1">
+			</div>
+			<div class="f fulle  fhoz1">
+			</div>
+			<div class="f fulle  fhoz2">
+			</div>
+			<div class="circle fullcircle fcircle1">
+			</div>
+			<div class="circle fullcircle fcircle2">
+			</div>
+		</div>
+
+
+		<div class="gcontainer color bfull">
+			<div class="g fulle gcurve1 gstroke1">
+			</div>
+			<div class="g fulle  ghoz1">
+			</div>
+			<div class="g fulle  ghoz2">
+			</div>
+			<div class="g fulle  ghoz3">
+			</div>
+			<div class="g fulle gcurve2 gstroke2">
+			</div> 
+			<div class="circle fullcircle gcircle1">
+			</div>
+			<div class="circle fullcircle gcircle2">
+			</div>
+		</div>
+
+
+		<div class="hcontainer color bfull">
+			<div class="h fulle hcurve1 hstroke1">
+			</div>
+			<div class="h fulle hhoz1">
+			</div>
+			<div class="h fulle hstroke2">
+			</div> 
+			<div class="circle  fullcircle hcircle1">
+			</div>
+			<div class="circle fullcircle  hcircle2">
+			</div>
+		</div>
+
+
+		<div class="icontainer color bfull">
+			<div class="i  fulle icurve1 istroke1">
+			</div>
+			<div class="circle  fullcircle icircle1">
+			</div>
+			<div class="circle  fullcircle icircle2">
+			</div>
+		</div>	
+
+		<div class="jcontainer color bfull">
+			<div class="j fulle jstroke1">
+			</div>
+			<div class="j fulle jhoz1">
+			</div>
+			<div class="j fulle jcurve2 jstroke2">
+			</div>
+			<div class="circle  fullcircle jcircle1">
+			</div>
+		</div>
+
+		<div class="kcontainer color bfull">
+			<div class="k fulle kcurve1 kstroke1">
+			</div>
+			<div class="k fulle khoz1">
+			</div>
+			<div class="k fulle kstroke2">
+			</div> 
+			<div class="k fulle kcurve2 kstroke3">
+			</div> 
+			<div class="circle fullcircle  kcircle1">
+			</div>
+			<div class="circle fullcircle  kcircle2">
+			</div>
+		</div>	
+
+		<div class="lcontainer color bfull">
+			<div class="l fulle lcurve1 lstroke1">
+			</div>
+			<div class="l fulle lhoz1">
+			</div>
+			<div class="circle fullcircle  lcircle1">
+			</div>
+		</div>
+
+		<div class="mcontainer color bfull">
+			<div class="m fulle mcurve1 mstroke1 ">
+			</div>
+			<div class="circle fullcircle  mcircle1">
+			</div>
+			<div class="m fulle mhoz1">
+			</div>
+			<div class="m fulle mstroke2">
+			</div> 
+			<div class="m fulle mcurve2 mstroke3">
+			</div> 
+			<div class="circle fullcircle  mcircle2">
+			</div>
+		</div>				
+
+		<div class="ncontainer color bfull">
+			<div class="n fulle ncurve1 nstroke1 ">
+			</div>
+			<div class="n fulle nhoz1">
+			</div>
+			<div class="n fulle ncurve2 nstroke2 ">
+			</div> 
+			<div class="circle fullcircle  ncircle1">
+			</div>
+			<div class="circle fullcircle  ncircle2">
+			</div>
+		</div>		
+
+		<div class="ocontainer color bfull">
+			<div class="o fulle ocurve1 ostroke1 ">
+			</div>
+			<div class="o fulle ohoz1">
+			</div>
+			<div class="o fulle ohoz2">
+			</div>
+			<div class="o fulle ocurve2 ostroke2 ">
+			</div> 
+			<div class="circle fullcircle  ocircle1">
+			</div>
+			<div class="circle fullcircle  ocircle2">
+			</div>
+
+		</div>		
+
+		<div class="pcontainer color bfull">
+			<div class="p fulle pcurve1 pstroke1">
+			</div>
+			<div class="p fulle phoz1">
+			</div>
+			<div class="p fulle phoz2">
+			</div>
+			<div class="p fulle pcurve2 pstroke2">
+			</div> 
+			<div class="circle fullcircle  pcircle1">
+			</div>
+			<div class="circle fullcircle  pcircle2">
+			</div>
+		</div>	
+
+		<div class="qcontainer color bfull">
+			<div class="q fulle qcurve1 qstroke1">
+			</div>
+			<div class="q fulle qhoz1">
+			</div>
+			<div class="q fulle qcurve2 qhoz2">
+			</div>
+			<div class="q fulle qstroke2">
+			</div> 
+			<div class="circle fullcircle  qcircle1">
+			</div>
+			<div class="circle fullcircle  qcircle2">
+			</div>
+		</div>	
+
+		<div class="rcontainer color bfull">
+			<div class="r fulle rcurve1 rstroke1">
+			</div>
+			<div class="r fulle rhoz1">
+			</div>
+			<div class="r fulle rhoz2">
+			</div>
+			<div class="r fulle rstroke2">
+			</div> 
+			<div class="r fulle rcurve2 rstroke3">
+			</div> 
+			<div class="circle fullcircle  rcircle1">
+			</div>
+			<div class="circle fullcircle  rcircle2">
+			</div>
+		</div>	
+
+		<div class="scontainer bfull">
+			<div class="s fulle sstroke1">
+			</div>
+			<div class="s fulle sstroke2">
+			</div>
+			<div class="s fulle shoz1">
+			</div>
+			<div class="s fulle shoz2">
+			</div>
+			<div class="s fulle shoz3">
+			</div>
+			<div class="s fulle sstroke3 ">
+			</div> 
+			<div class="s fulle sstroke4 scurve4">
+			</div> 
+			<div class="circle fullcircle  scircle1">
+			</div>
+			<div class="circle fullcircle  scircle2">
+			</div>
+			<div class="circle fullcircle  scircle3">
+			</div>
+		</div>	
+
+
+		<div class="tcontainer color bfull">
+			<div class="t fulle tcurve1 tstroke1">
+			</div>
+			<div class="t fulle thoz1">
+			</div>
+			<div class="circle fullcircle  tcircle1">
+			</div>
+		</div>	
+
+		<div class="ucontainer color bfull">
+			<div class="u fulle ustroke1">
+			</div>
+			<div class="u fulle uhoz1">
+			</div>
+			<div class="u fulle ucurve1 ustroke2">
+			</div> 
+			<div class="circle fullcircle  ucircle1">
+			</div>
+		</div>	
+
+		<div class="vcontainer color bfull">
+			<div class="v fulle vstroke1">
+			</div>
+			<div class="v fulle vcurve1 vhoz1">
+			</div>
+			<div class="circle fullcircle  vcircle1">
+			</div>
+		</div>	
+
+		<div class="wcontainer color bfull">
+			<div class="w fulle wcurve1 wstroke1 ">
+			</div>
+			<div class="w fulle whoz1">
+			</div>
+			<div class="w fulle whoz2">
+			</div>
+			<div class="w fulle wcurve2 wstroke2 ">
+			</div> 
+			<div class="w fulle wcurve3 wstroke3 ">
+			</div> 
+			<div class="circle fullcircle  wcircle1">
+			</div>
+			<div class="circle fullcircle  wcircle2">
+			</div>
+			<div class="circle fullcircle  wcircle3">
+			</div>
+		</div>	
+
+		<div class="xcontainer color bfull">
+			<div class="x fulle xcurve1 xstroke1">
+			</div>
+			<div class="x fulle xcurve2 xstroke2">
+			</div>
+			<div class="x fulle xhoz1">
+			</div>
+			<div class="x fulle xcurve3 xstroke3">
+			</div> 
+			<div class="x fulle xcurve4 xstroke4">
+			</div>
+			<div class="circle fullcircle  xcircle1">
+			</div>
+			<div class="circle fullcircle  xcircle2">
+			</div>
+			<div class="circle fullcircle  xcircle3">
+			</div>
+			<div class="circle fullcircle  xcircle4">
+			</div>
+		</div>			
+
+		<div class="ycontainer color bfull">
+			<div class="y fulle ycurve1 ystroke1 ">
+			</div>
+			<div class="y fulle ystroke2 ">
+			</div>
+			<div class="y fulle yhoz1">
+			</div>
+			<div class="y fulle yhoz2">
+			</div>
+			<div class="y fulle ycurve2 ystroke3 ">
+			</div> 
+			<div class="circle fullcircle  ycircle1">
+			</div>
+			<div class="circle fullcircle  ycircle2">
+			</div>
+		</div>		
+
+		<div class="zcontainer color bfull">
+			<div class="z fulle zstroke1">
+			</div>
+			<div class="z fulle zcurve1 zhoz1">
+			</div>
+			<div class="z fulle zcurve2 zhoz2">
+			</div>
+			<div class="circle fullcircle  zcircle1">
+			</div>
+			<div class="circle fullcircle  zcircle2">
+			</div>
+		</div>	
+
+
+	</div>
+</body>
+</html>
