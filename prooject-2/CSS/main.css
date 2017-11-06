@@ -1883,3 +1883,18 @@ width: 120px;
 	opacity: 1;  		
   		
 }
+
+.fullcontainer:hover .fullcircle {
+	opacity: 0;
+	transition-duration: 2s;
+}
+
+/*.hidecircle{
+	opacity: 0;
+	transition-duration: .5s;
+}*/
+
+.colorchange {
+	background-color: green;
+	transition-duration: .5s;
+}

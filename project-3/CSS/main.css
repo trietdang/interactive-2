@@ -1,0 +1,198 @@
+body {
+	background-color: black;
+}
+
+.titlebar {
+	width: auto;
+	height: 90px;
+	background-color: white;
+	margin: -10px;
+	display: block;
+	overflow: hidden;
+}
+
+.sfmomalogo img {
+	margin: auto;
+	display: block;
+	width: 160px;
+	padding: 10px;
+}
+
+.line1 {
+	width: 25px;
+    height: 3px;
+    margin-top: 30px;
+    background-color: #ff4338;
+    position: relative;
+}
+
+.line2 {
+	width: 25px;
+	height: 3px;
+	margin-top: 5px;
+	background-color: #ff4338;
+}
+
+.line3 {
+	width: 25px;
+	height: 3px;
+	margin-top: 5px;
+	background-color: #ff4338;
+}
+
+.menu {
+    margin-top: -7%;
+    padding: 18px;
+    position: absolute;
+}
+
+h {
+    color: #ff4338;
+    font-family: helvetica;
+    position: absolute;
+    font-size: 21px;
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+
+.p404 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 700px;
+}
+
+
+
+h1 {
+	font-family: monospace;
+    /*position: absolute;*/
+    color: white;
+    font-size: 330px;
+    margin-left: 310px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+h2 {
+    font-family: monospace;
+    /*position: absolute;*/
+    color: white;
+    font-size: 20px;
+    margin-left: 22%;
+    margin-top: -17%;
+    display: block;
+}
+
+
+.brush {
+       margin-top: -29vw;
+    margin-left: 35vh;
+    display: block;
+    z-index: 2;
+}
+
+.brush img:hover {
+	opacity: 0;
+	transition-duration: 4s;
+}
+
+/*.square {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	    margin-top: -20%;
+    margin-left: 500%;
+}*/
+
+.a404 {
+    /*background-color: red;*/
+    width: 1200px;
+    height: 800px;
+    margin-top: 0vw;
+    margin-left: 15vh;
+ }
+
+.b404 {
+	/*background-color: red;*/
+    width: 1200px;
+    height: 800px;
+        margin-top: -100vh;
+    margin-left: 100vw;
+
+}
+
+.c404 {
+	/*background-color: red;*/
+    width: 1200px;
+    height: 800px;
+    margin-top: -100vh;
+    margin-left: 190vw;
+
+}
+
+.containerevent {
+	background-color: white;
+    width: auto;
+    height: 500px;
+    margin: 20px;
+}
+
+.event1 {
+	width: 320px;
+    height: 200px;
+    /*background-color: red;*/
+    margin-top: 5vh;
+    margin-left: 7vw;
+    position: relative;
+    float: left;
+    border: solid .5px black;
+}
+
+.event2 {
+	width: 320px;
+    height: 200px;
+    /*background-color: red;*/
+    margin-top: 5vh;
+    margin-left: 7vw;
+    position: relative;
+    float: left;
+    border: solid .5px black;
+}
+
+.event3 {
+	width: 320px;
+    height: 200px;
+    /*background-color: red;*/
+    margin-top: 5vh;
+    margin-left: 7vw;
+    position: relative;
+    float: left;
+    border: solid .5px black;
+}
+
+
+
+.event1:hover {
+	box-shadow: 5px 5px 3px #888888;
+	transition-duration: .5s;
+} 
+
+.event2:hover {
+	box-shadow: 5px 5px 3px #888888;
+	transition-duration: .5s;
+} 
+
+.event3:hover {
+	box-shadow: 5px 5px 3px #888888;
+	transition-duration: .5s;
+} 
+
+span {
+	font-family: helvetica;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    display: block;}
