@@ -268,7 +268,7 @@ p2 {
 
 .img2c {
 	transform: skew(0deg, -30deg);
-    top: -16%;
+    top: -22%;
     left: 100%;
     width: 123px;
     height: 157px;
@@ -277,8 +277,8 @@ p2 {
 }
 
 .img2c img {
-	width: 123px;
-    height: 157px;
+	width: 109px;
+    height: 167px;
 }
 
 
