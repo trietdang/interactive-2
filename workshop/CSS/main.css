@@ -1,0 +1,63 @@
+html {
+	width: 0;
+	height: 0;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.row {
+	position: relative;
+	width: 100%;
+	height: 250px;
+}
+
+.block {
+	width: 25%;
+	height: 100%;
+	position: relative;
+	top:0;
+	left: 0;
+	background-color: blue;
+	float: left;
+}
+
+#flip{
+	transform: rotate(180deg);
+}
+
+.block2 {
+	position: relative;
+	height: 90%;
+	width: 90%;
+	background-color: red;
+}
+
+.block3 {
+position: relative;
+width: 80%;
+height: 80%;
+background-color: #fff300;
+}
+
+.block4 {
+	position: relative;
+	margin: 5% 5%;
+	float: left;
+	width: 20%;
+	height: 20%;
+	background-color: black;
+}
+
+/*.block5 {
+	position: relative;
+	margin: 5% 5%;
+	width: 50px;
+	height: 5px;
+	transform: rotate(40deg);
+	border-radius: 60%;
+	background-color: purple;
+}*/

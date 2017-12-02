@@ -1787,9 +1787,11 @@ width: 120px;
     width: 1000px;
     height: 800px;
     /* background-color: darkblue; */
-    margin-top: 21430px;
-    margin-left: 440px;
+    margin-top: 2680vh;
+    margin-left: 35vw;
     position: absolute;
+    float: left;
+    display: block;
 }
 
 /*.afull, .nfull {

@@ -1,0 +1,672 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	font: 18px/30px Sans-serif; color: #fff;
+	font-family: "proxima-nova";
+}
+
+li{
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+
+
+section {
+	overflow-x: hidden; 
+
+}
+
+.arrow{	
+	position: fixed;
+	bottom: 1%;
+	left: calc(50% - 11px);
+	animation:arrow 0.6s infinite;
+	animation-direction: alternate;
+	margin-right: auto;
+	width: auto;
+	z-index: 100000;
+}
+
+.arrow:hover{
+	cursor: pointer;
+}
+
+@keyframes arrow{
+    from{opacity: 0;bottom: 3%;}
+    to{opacity: 0.7;bottom: 2%;}
+}
+
+#intro { 
+	height: 7000px;
+	background-color: black;
+}
+
+h {
+	font-family: Josefin Sans;
+	font-size: 100px;
+	background-color: yellow;
+}
+
+
+
+.background1 {
+    width: 103%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -2.5%;
+    z-index: 1000;
+}
+
+.background2 {
+    width: 105%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -2.5%;
+    z-index: 1000;
+
+}
+
+.jeff {
+	position: fixed;
+    width: 34%;
+    z-index: 10000;
+	top: 21%;
+    left: 19%;
+     /*-webkit-clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);*/
+}
+
+.wall {
+	position: fixed;
+    width: 40%;
+    z-index: 10000;
+    top: 45.7%;
+    left: 51.8%;
+}
+
+
+.foothead {
+	width: 100%;
+	height: 50px;
+	top: 0;
+	position: fixed;
+	z-index: 100000;
+}
+
+p {
+	font-size: 18px;
+	font-family: josefin sans;
+	margin-left: 64%;
+	margin-top: 2%;
+	color: white;
+}
+
+p1 {
+	font-size: 18px;
+	font-family: josefin sans;
+	margin-left: 84%;
+	margin-top: 4%;
+	color: white;
+}
+
+p2 {
+	font-size: 18px;
+	font-family: josefin sans;
+	margin:auto;
+	color: white;
+	letter-spacing: 1px;
+
+}
+
+.introtext {
+	margin-left: 51%;
+    margin-right: 10%;
+    position: fixed;
+    /*top: 230px;*/
+
+}
+
+
+
+.blurry {
+	position: fixed;
+    z-index: 10000;
+    top: 30%;
+    left: 17.5%;
+    margin-top: -6.4%;
+}
+
+.jeffwall {
+	position: fixed;
+	margin-left: 10%;
+	margin-top: 0;
+}
+
+/*.block {
+	padding-top: 400px;
+}*/
+
+.unpin {
+	padding-top: 0px;
+}
+
+
+.fadeout, .goaway, .blockjeff {
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+}
+
+.blockjeff {
+	padding-top: 0px;
+}
+
+.box1 {
+	width: 300px;
+    height: 218px;
+	position: fixed;
+	margin:auto;
+	left: 25%;
+	opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+	background-color: red;
+	z-index: 100000;
+}
+
+
+.box1:hover {
+	opacity: 1;
+}
+
+
+.img1a {
+	width: 100%;
+	top:0%;
+	left: 0%;
+	position: absolute;
+}
+
+
+.img1b {
+	transform: skew(-60deg);
+    top: -32%;
+    left: 21%;
+    height: 71px;
+    width: 298px;
+    position: absolute;
+}
+
+.img1b img {
+	height: 71px;
+    width: 298px;
+}
+
+.img1c {
+	transform: skew(0deg, -30deg);
+    top: -16%;
+    left: 100%;
+    width: 123px;
+    height: 217px;
+    position: absolute;
+    background-color: red;
+}
+
+.img1c img {
+	width: 123px;
+    height: 217px;
+}
+
+
+.box2 {
+    width: 240px;
+    height: 165px;
+    position: fixed;
+    margin: auto;
+    left: 60%;
+	opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+	background-color: red;
+	z-index: 100000;
+}
+
+
+.box2:hover {
+	opacity: 1;
+}
+
+.img2a {
+	width: 100%;
+	top:0%;
+	left: 0%;
+	position: absolute;
+}
+
+
+.img2b {
+    transform: skew(-60deg);
+    top: -38%;
+    left: 19%;
+    height: 71px;
+    width: 298px;
+    position: absolute;
+}
+
+.img2b img {
+    height: 63px;
+    width: 240px;
+}
+
+.img2c {
+	transform: skew(0deg, -30deg);
+    top: -16%;
+    left: 100%;
+    width: 123px;
+    height: 157px;
+    position: absolute;
+    background-color: red;
+}
+
+.img2c img {
+	width: 123px;
+    height: 157px;
+}
+
+
+
+
+.roy {
+	position: absolute;
+	left: -20%;
+	top: 10%;
+	width: 100%;
+
+
+}
+
+.comic{
+	width: 100%;
+	height: 100%;
+	background-image: black;
+}
+	
+	
+	
+#firstani {
+	
+	position: relative; 
+	height: 3000px;
+}
+
+#thirdani {
+	
+	position: relative; 
+	height: 3000px;
+}
+
+.back{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.back2{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.back3{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+}
+
+.back4{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: auto;
+}
+
+.bullet{
+	position: fixed;
+	right: 41%;
+	top: 11.5%;
+	transform: scale(0.04);
+}
+
+.varoom{
+	position: fixed;
+	right: 0;
+    bottom: -20%;
+}
+
+.cloud{
+   position: fixed;
+   top: 20%;
+}
+
+.plane{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+.scene2 {
+	position: fixed;
+	background-color: black;
+   height: 100%;
+	top: 0%;
+}
+
+.whaam{
+	position: fixed;
+   
+	top: 30%;
+}
+
+	
+	
+#artist{
+	background-color: #f6f0e2;
+	background-size: 100% auto;
+	height: 839px;
+	
+	
+}
+
+.endpoint{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+	
+	#artist p {
+		position: absolute;
+		font-weight: 300;
+		font-size:0.8em;
+		line-height:27px;
+		top: 255px; 
+		right: 5%;
+		width: 35%;
+		height: 500px;	
+		color: black;
+	
+	}
+
+.tag{
+	width: auto;
+	background-color: white;
+	color: black;
+	height: auto;
+	position: absolute;
+	font-weight: 600;
+	font-size: 2.3em;
+	left: 3%;
+	padding-top: 160px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	box-shadow: 0px 20px 23px -15px rgba(0,0,0,0.45);
+	line-height: 38px;
+
+}
+
+
+#secondani {
+	background: #28323c url(images/paper.jpg);
+	background-size: 100% 100%; 
+	height: 2200px;
+	
+}
+
+#tickets {
+	background: #f6f0e2 url(images/finaltitle.png); 
+	background-size: 100% auto; 
+	height: 940px;
+	
+}
+.hand1{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+.hand2{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+
+#exhibition{
+	background-color: #f6f0e2;
+	height:839px;
+}	
+
+
+#exhibition p {
+		position: absolute;
+		font-weight: 300;
+		font-size:0.8em;
+		line-height:27px;
+		top: 225px; 
+		left: 5%;
+		
+		width: 35%;
+		height: 500px;		
+		color: black;
+	}
+
+.people{
+	position: absolute;
+	
+	top: 0;
+	height: 100%;
+	left: 45%;
+}
+
+
+.stage{
+	position: absolute;
+	right: -10%;
+    top: calc(50% - 400px);
+	background-color: transparent;
+	height: 600px;
+	width: 80%;
+	float: left;
+}
+
+.box{
+	box-shadow: 0px 20px 23px -15px rgba(0,0,0,0.45);
+	margin:1%;
+	margin-bottom: 15px;
+	margin-top:15px;
+	height: 160px;
+	width: 24%;
+	float: left;
+	background-color: black;
+	position: relative;
+	transition: 0.5s;
+}
+
+.box:hover{
+	transform: scale(1.1,1.1);
+	
+}
+
+
+
+.aa{
+	background-image: url(images/1a.jpg);
+	background-size: cover;
+}
+
+.bb{
+   background-image: url(images/drowninggirl.jpg);
+	background-size: cover;
+}
+
+.cc{
+   background-image: url(images/alright.jpg);
+	background-size: cover;
+}
+
+.dd{
+   background-image: url(images/jeff.jpg);
+	background-size: cover;
+}
+.ee{
+   background-image: url(images/whaam.jpg);
+	background-size: cover;
+	width: 50%;
+}
+.ff{
+   background-image: url(images/ring.jpg);
+	background-size: cover;
+}
+
+.gg{
+   background-image: url(images/pistal.jpg);
+	background-size: cover;
+}
+
+.hh{
+   background-image: url(images/varoom.jpg);
+	background-size: cover;
+}
+
+#artwork{
+	background-color: #f6f0e2;
+	height: 900px;
+}
+
+.tagbox{
+	margin:1%;
+	background-color: transparent;
+	height: 60px;
+	color: black;
+	font-weight: 300;
+	font-size: 0.7em;
+	line-height: 17px;
+	
+    margin-bottom: 0px;
+    width: 24%;
+    float: left;
+}
+
+.eee{
+	width: 540px;
+}
+
+#tickets p {
+		position: absolute;
+		top: 495px; 
+		left: calc(50% - 50px);
+		width: 100px;
+		text-align: center;
+		color: #f6f0e2;
+
+	}
+
+.buytickets{
+		position: absolute;
+		top: 56%; 
+		left: calc(50% - 50px);
+		width: 100px;
+		text-align: center;
+		color: #f6f0e2;	
+	}
+
+.buytickets{
+     cursor: pointer;
+     text-decoration: underline;
+}	
+
+.credit{
+	background-color:#f6f0e2;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	color: black;
+	height: 200px;
+	box-shadow: 0px 7px 59px -11px rgba(0,0,0,0.35);
+}
+
+.logo{
+	
+	padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 30px;
+	font-weight: 800;
+	line-height: 10px;
+}
+
+.logo2{
+	padding:20px;
+    padding-left: 20px;
+	font-weight: 800;
+	line-height: 10px;
+}
+
+.logo2 img{
+	margin-left: 20px;
+}
+
+#share-buttons{
+	right: 40px;
+	position: absolute;
+	top: 30px;
+
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+a{
+	text-decoration: none;
+}
+
+#tickets p{
+	color: grey;
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	font-size: 0.6em;
+	line-height: 14px;
+	width: auto;
+	text-align: right;
+	position: absolute;
+}
+
+.description{
+	color: black;
+	position: absolute;
+	top:20%;
+	left:5%;
+	width: 200px;
+	font-weight: 300;
+		font-size:0.8em;
+		line-height:27px;
+}
