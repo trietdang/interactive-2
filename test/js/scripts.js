@@ -191,7 +191,7 @@ $(document).ready(function(){
 
         $("html, body"). animate({
 
-          scrollTop: $(".hiden4").offset().top
+          scrollTop: $(".detail").offset().top
 
         },1000);
 
