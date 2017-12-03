@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
 
+
+
   $('.curtains>li').css('position', 'fixed');
 
    $('.curtains').curtain();
@@ -28,9 +30,6 @@ $(document).ready(function(){
       delay:400, duration:1000, property:'bottom', start:-500, end:100
     });
 
-       scrollorama.animate('p1, p',{
-      delay:400, duration:1000, property:'opacity', start:.2, end:1
-    });
  
     //   scrollorama.animate('.blurry',{ duration:500, property:'padding-top', start:200, pin:true 
     // });
@@ -94,6 +93,12 @@ $(document).ready(function(){
       delay:6500, duration:4500, property:'bottom', start:-1400, end:200
     });
 
+      scrollorama.animate('.boxgone',{ 
+      delay: 7000, duration:6000, property:'opacity', start: 500, pin:false
+    });
+
+
+
 
     //   scrollorama.animate('.box2',{
     //   delay:2500, duration:2000, property:'bottom', start:-1400, end:450
@@ -103,6 +108,14 @@ $(document).ready(function(){
     // });
 
 
+    scrollorama.animate('.background3',{
+      delay:10000, duration:2000, property:'left', start:-2.5, end:-1500
+    });
+    
+    scrollorama.animate('.background4',{
+      delay:10000, duration:2000, property:'left', start:-2.5, end:1500
+    });
+
 
 
 
@@ -110,63 +123,10 @@ $(document).ready(function(){
 
 
 
-  
-    
-    scrollorama.animate('.plane',{
-      delay:7600, duration:993, property:'left', start:-1500, end:-100
-    });
-     
-    scrollorama.animate('.cloud',{
-      delay:6000, duration:993, property:'left', start:-600, end:500
-    });
 
-     scrollorama.animate('.back2',{
-      delay:7200, duration:993, property:'opacity', start:0, end:1
-    });
-     
-     
-     
-     scrollorama.animate('.whaam',{
-      delay:8400, duration:293, property:'right', start:-1500, end:400
-    });
 
-     scrollorama.animate('.aboutartist',{
-      delay:9188, duration:700, property:'bottom', start:0, end:700
-    });
 
-     scrollorama.animate('.hand1',{
-      delay:11000, duration:1093, property:'left', start:-800, end:-10
-    });
 
-     scrollorama.animate('.hand2',{
-      delay:11000, duration:1093, property:'right', start:-800, end:-10
-    });
-    
-   
-    
-    scrollorama.animate('.exhibitiontag',{
-      delay:12230, duration:993, property:'bottom', start:0, end:993
-    });
-
-     scrollorama.animate('.bullet',{
-      delay:14030, duration:2093, property:'zoom', start:0.04, end:1.5
-    });
-
-     scrollorama.animate('.varoom',{
-      delay:14130, duration:93, property:'zoom', start:0, end:1
-    });
-
-     scrollorama.animate('.varoom',{
-      delay:14180, duration:93, property:'opacity', start:1, end:0
-    });
-
-      scrollorama.animate('.artworkused',{
-      delay:16000, duration:900, property:'bottom', start:0, end:900
-    });
-
-scrollorama.animate('.credit',{
-      delay:17700, duration:100, property:'bottom', start:-200, end:-50
-    });
 
     
 
@@ -185,7 +145,59 @@ scrollorama.animate('.credit',{
 
 
 
+  $(document).ready(function(){
 
+      $(".home").click(function(){
+
+        $("html, body"). animate({
+
+          scrollTop: $(".hiden").offset().top
+
+        },1000);
+
+      })
+
+      $(".about").click(function(){
+
+        $("html, body"). animate({
+
+          scrollTop: $(".hiden1").offset().top
+
+        },1000);
+
+      })
+
+      $(".works").click(function(){
+
+        $("html, body"). animate({
+
+          scrollTop: $(".hiden2").offset().top
+
+        },1000);
+
+      })
+
+      $(".events").click(function(){
+
+        $("html, body"). animate({
+
+          scrollTop: $(".hiden3").offset().top
+
+        },1000);
+
+      })
+
+      $(".sfmoma").click(function(){
+
+        $("html, body"). animate({
+
+          scrollTop: $(".hiden4").offset().top
+
+        },1000);
+
+      })
+
+    });
    
 
    
