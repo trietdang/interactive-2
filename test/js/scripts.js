@@ -27,6 +27,10 @@ $(document).ready(function(){
        scrollorama.animate('.jeffwall',{
       delay:400, duration:1000, property:'bottom', start:-500, end:100
     });
+
+       scrollorama.animate('p1, p',{
+      delay:400, duration:1000, property:'opacity', start:.2, end:1
+    });
  
     //   scrollorama.animate('.blurry',{ duration:500, property:'padding-top', start:200, pin:true 
     // });
@@ -35,11 +39,11 @@ $(document).ready(function(){
       delay:800, duration:1000, property:'bottom', start:-1400, end:100
     });
 
-      scrollorama.animate('.fadein',{ delay:1500, duration: 1300, property:'opacity', start:0, end:1
-    });
+    //   scrollorama.animate('.fadein',{ delay:1500, duration: 1300, property:'opacity', start:0, end:1
+    // });
 
-      scrollorama.animate('.fadein',{ delay:1500, duration: 1300, property:'letter-spacing', start:18 
-    });
+    //   scrollorama.animate('.fadein',{ delay:1500, duration: 1300, property:'letter-spacing', start:18 
+    // });
 
 
 
@@ -56,13 +60,40 @@ $(document).ready(function(){
     });
 
       scrollorama.animate('.box1',{
-      delay:2200, duration:2000, property:'bottom', start:-1400, end:250
+      delay:2200, duration:5000, property:'bottom', start:-1400, end:250
     });
 
 
       scrollorama.animate('.box2',{
-      delay:2400, duration:2000, property:'bottom', start:-1400, end:250
+      delay:2400, duration:4000, property:'bottom', start:-1400, end:200
     });
+
+
+      scrollorama.animate('.box3',{
+      delay:2800, duration:4500, property:'bottom', start:-1400, end:550
+    });
+
+
+      scrollorama.animate('.introwork',{
+      delay:2800, duration:2500, property:'left', start: -2200, end: 500
+    });
+
+      scrollorama.animate('.introworkgone',{ 
+      delay: 3200, duration:5000, property:'opacity', start: 500, pin:false
+    });
+
+      scrollorama.animate('.box4',{
+      delay:6000, duration:4500, property:'bottom', start:-1400, end:550
+    });
+
+      scrollorama.animate('.box5',{
+      delay:6200, duration:4500, property:'bottom', start:-1400, end:100
+    });
+
+      scrollorama.animate('.box6',{
+      delay:6500, duration:4500, property:'bottom', start:-1400, end:200
+    });
+
 
     //   scrollorama.animate('.box2',{
     //   delay:2500, duration:2000, property:'bottom', start:-1400, end:450

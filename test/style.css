@@ -39,7 +39,7 @@ section {
 }
 
 #intro { 
-	height: 7000px;
+	height: 15000px;
 	background-color: black;
 }
 
@@ -102,6 +102,7 @@ p {
 	margin-left: 64%;
 	margin-top: 2%;
 	color: white;
+	opacity: .5;
 }
 
 p1 {
@@ -110,6 +111,7 @@ p1 {
 	margin-left: 84%;
 	margin-top: 4%;
 	color: white;
+	opacity: .5;
 }
 
 p2 {
@@ -118,8 +120,9 @@ p2 {
 	margin:auto;
 	color: white;
 	letter-spacing: 1px;
-
 }
+
+
 
 .introtext {
 	margin-left: 51%;
@@ -154,7 +157,7 @@ p2 {
 }
 
 
-.fadeout, .goaway, .blockjeff {
+.fadeout, .goaway, .blockjeff, .introworkgone {
 	opacity: 0;
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity 1s ease-in-out;
@@ -163,6 +166,25 @@ p2 {
 
 .blockjeff {
 	padding-top: 0px;
+}
+
+
+.introwork {
+	width: 530px;
+	top: 13%;
+	position: fixed;
+}
+
+p3 {
+	font-size: 18px;
+	font-family: josefin sans;
+	margin:auto;
+	color: white;
+	letter-spacing: 1px;
+	    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 .box1 {
@@ -229,10 +251,10 @@ p2 {
     height: 165px;
     position: fixed;
     margin: auto;
-    left: 60%;
-	opacity: .5;
+    left: 58%;
+	opacity: .6;
     transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
+    -moz-transition: opacity 1s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
 	background-color: red;
@@ -255,33 +277,293 @@ p2 {
 .img2b {
     transform: skew(-60deg);
     top: -38%;
-    left: 19%;
-    height: 71px;
-    width: 298px;
+    left: 23%;
+    height: 63px;
+    width: 240px;
     position: absolute;
 }
 
 .img2b img {
     height: 63px;
-    width: 240px;
+    width: 241px;
 }
 
 .img2c {
 	transform: skew(0deg, -30deg);
-    top: -22%;
+    top: -19%;
     left: 100%;
-    width: 123px;
-    height: 157px;
+    width: 109px;
+    height: 165px;
     position: absolute;
     background-color: red;
 }
 
 .img2c img {
-	width: 109px;
-    height: 167px;
+	    width: 109px;
+    height: 165px;
 }
 
 
+
+
+.box3 {
+    width: 200px;
+    height: 65px;
+    position: fixed;
+    margin: auto;
+    left: 7%;
+	opacity: .7;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+	background-color: red;
+	z-index: 100000;
+}
+
+
+.box3:hover {
+	opacity: 1;
+}
+
+.img3a {
+	transform: skew(0deg, 9DEG);
+	width: 100%;
+	top:0%;
+	left: 0%;
+	position: absolute;
+	z-index: 10000000;
+}
+
+
+.img3b {
+    transform: skew(-60deg, 9DEG);
+    top: -88%;
+    left: 23%;
+    height: 71px;
+    width: 285px;
+    position: absolute;
+}
+
+.img3b img {
+    height: 63px;
+    width: 202px;
+}
+
+.fly {
+	opacity: 0;
+	top: -268%;
+    left: 43%;
+    width: 1150px;
+    transform: rotate(-10deg);
+    position: absolute;
+     transition: opacity 0s ease-out;
+    -moz-transition: opacity .7s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .6s ease-out;
+	z-index: 0;
+}
+
+.box3:hover .fly{
+	opacity: 1;
+}
+
+
+
+.img3c {
+	transform: skew(0deg, -30deg);
+    top: -22%;
+    left: 100%;
+    width: 104px;
+    height: 114px;
+    position: absolute;
+    background-color: red;
+}
+
+.img3c img {
+	width: 104px;
+    height: 114px;
+}
+
+
+.box4 {
+	transform: scale(.7);
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    margin: auto;
+    left: 58%;
+	opacity: .6;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+	background-color: red;
+	z-index: 100000;
+}
+
+
+.box4:hover {
+	opacity: 1;
+}
+
+.img4a {
+	transform: skew(0deg, 9DEG);
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+
+.img4b {
+    transform: skew(-69deg,10deg);
+    top: -31%;
+    left: 14%;
+    height: 63px;
+    width: 240px;
+    position: absolute;
+}
+
+.img4b img {
+    height: 40px;
+    width: 151px;
+}
+
+.img4c {
+	transform: skew(0deg, -22deg);
+    top: -2%;
+    left: 100%;
+    width: 86px;
+    height: 120px;
+    position: absolute;
+    background-color: red;
+}
+
+.img4c img {
+	width: 103px;
+    height: 125px;
+}
+
+
+
+.box5 {
+	transform: scale(.9);
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    margin: auto;
+    left: 10%;
+	opacity: .6;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+	background-color: red;
+	z-index: 100000;
+}
+
+
+.box5:hover {
+	opacity: 1;
+}
+
+.img5a {
+	transform: skew(0deg, 9DEG);
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+
+.img5b {
+    transform: skew(-69deg,10deg);
+    top: -31%;
+    left: 14%;
+    height: 63px;
+    width: 240px;
+    position: absolute;
+}
+
+.img5b img {
+    height: 40px;
+    width: 151px;
+}
+
+.img5c {
+	transform: skew(0deg, -22deg);
+    top: -2%;
+    left: 100%;
+    width: 86px;
+    height: 120px;
+    position: absolute;
+    background-color: red;
+}
+
+.img5c img {
+	width: 103px;
+    height: 125px;
+}
+
+
+.box6 {
+	transform: scale(.5);
+    width: 240px;
+    height: 165px;
+    position: fixed;
+    margin: auto;
+    left: 80%;
+	opacity: .6;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+	background-color: red;
+	z-index: 100000;
+}
+
+
+.box6:hover {
+	opacity: 1;
+}
+
+.img6a {
+	width: 100%;
+	top:0%;
+	left: 0%;
+	position: absolute;
+}
+
+
+.img6b {
+    transform: skew(-60deg);
+    top: -38%;
+    left: 23%;
+    height: 63px;
+    width: 240px;
+    position: absolute;
+}
+
+.img6b img {
+    height: 63px;
+    width: 241px;
+}
+
+.img6c {
+	transform: skew(0deg, -30deg);
+    top: -19%;
+    left: 100%;
+    width: 109px;
+    height: 165px;
+    position: absolute;
+    background-color: red;
+}
+
+.img6c img {
+	    width: 109px;
+    height: 165px;
+}
 
 
 .roy {
