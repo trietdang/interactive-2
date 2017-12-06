@@ -67,6 +67,13 @@ $(document).ready(function(){
       delay:2400, duration:4000, property:'bottom', start:-1400, end:200
     });
 
+//       $('.img2a').hover(
+//         function() {
+//         $('.fly' ).addClass( '.hoverfly' );
+//           }, function() {
+//          $( this ).removeClass( '.hoverfly' );
+//   }
+// );
 
       scrollorama.animate('.box3',{
       delay:2800, duration:4500, property:'bottom', start:-1400, end:550
@@ -74,7 +81,7 @@ $(document).ready(function(){
 
 
       scrollorama.animate('.introwork',{
-      delay:2800, duration:2500, property:'left', start: -2200, end: 500
+      delay:2000, duration:2500, property:'left', start: -2200, end: 500
     });
 
       scrollorama.animate('.introworkgone',{ 
@@ -94,7 +101,7 @@ $(document).ready(function(){
     });
 
       scrollorama.animate('.boxgone',{ 
-      delay: 7000, duration:6000, property:'opacity', start: 500, pin:false
+      delay: 6000, duration:7000, property:'opacity', start: 500, pin:false
     });
 
 

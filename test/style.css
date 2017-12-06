@@ -52,7 +52,7 @@ section {
 }
 
 #intro { 
-	height: 15000px;
+	height: 14000px;
 	background-color: black;
 }
 
@@ -424,13 +424,17 @@ p3 {
 
 }
 
+.hoverfly {
+	opacity: 1;
+}
+
 .fly img {
 	z-index: 0;
 }
 
-.box3:hover .fly{
+/*.box3:hover .fly{
 	opacity: 1;
-}
+}	*/
 
 
 
@@ -696,17 +700,15 @@ p3 {
 }
 	
 	#artist p {
-		position: absolute;
+	position: absolute;
     font-weight: 300;
     font-size: .8em;
     line-height: 27px;
     top: 59%;
-    right: 18%;
-    width: 47%;
-    height: 500px;
+    right: 30%;
+    width: 34%;
     color: white;
-	
-	}
+}
 
 .tag{
 	top: 55%;
@@ -907,7 +909,7 @@ p3 {
 	    position: absolute;
     top: 41%;
     left: calc(3%);
-    width: 1000px;
+    width: 1070px;
     text-align: left;
     color: #f6f0e2;
 
