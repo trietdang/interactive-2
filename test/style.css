@@ -907,7 +907,7 @@ p3 {
 
 .both {
 	    position: absolute;
-    top: 41%;
+   /* top: 41%;*/
     left: calc(3%);
     width: 1070px;
     text-align: left;
@@ -916,6 +916,7 @@ p3 {
 }
 
 .present {
+	top: 40%;
         font-size: 136px;
     font-family: Josefin sans;
     font-weight: 800;
