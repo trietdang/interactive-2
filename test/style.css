@@ -922,9 +922,16 @@ p3 {
     
 }
 
-.subpresent {
+.ohow {
 	top: 50%;
 	font-size: 40px;
+	font-family: Josefin sans;
+
+}
+
+.subpresent {
+	top: 57%;
+	font-size: 26px;
 }
 
 .present p {
@@ -934,7 +941,7 @@ p3 {
 
 .buytickets{
 		position: absolute;
-		top: 56%; 
+		top: 60%; 
 		left: calc(3.2%);
 		width: 100px;
 		text-align: left;
