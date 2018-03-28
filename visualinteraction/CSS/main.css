@@ -1,0 +1,604 @@
+
+body {
+	font-family: proxima nova;
+}
+
+.textstyle {
+	top: 0;
+	left: 3%;
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+/*	background-color: blue;*/
+}
+
+#h1 {
+	font-size: 50px;
+	color: #3F5387;
+	font-weight: bold;
+}
+
+p {
+	font-size: 18px;
+	color:  #052B49;
+/*	font-weight: lighter;*/
+}
+
+.test {
+	width: 25px;
+	height: 25px;
+	background-color: red;
+}
+
+.assignment {
+	width: 37%;
+    top: 25%;
+    left: 3%;
+    position: absolute;
+}
+
+.caption {
+	width: 37%;
+    top: 35%;
+    left: 3%;
+    position: absolute;
+}
+
+.introduction {
+	width: 37%;
+    top: 40%;
+    left: 3%;
+    position: absolute;
+}
+
+.elementcontainer {
+	top: 70%;
+	left: 3%;
+	width:500px;
+	height: auto;
+	position: absolute;
+}
+.elementcontainer p {
+	font-weight: 600;
+	font-variant: small-caps;
+	color: #3F5387;
+}
+
+.textcontainer {
+	top: 85%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+/*	background-color: red;*/
+}
+
+
+
+.heading p {
+	margin-left: 6%;
+}
+
+.captionhead {
+	top: 17%;
+    left: 6.5%;
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
+
+.subheading p {
+	margin-left: 6%;
+}
+
+.captionsubhead {
+	top: 27%;
+    left: 6.5%;
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
+
+.caption0 p {
+	margin-left: 6.5%;
+	margin-top: 15%;
+
+}
+
+.captioncaption {
+	top: 46%;
+    left: 6.5%;
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
+
+.bodytext p {
+	margin-left: 6.5%;
+	margin-top: 15%;
+
+}
+
+.captionbody {
+	top: 37%;
+    left: 6.5%;
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
+
+#h2 {
+	font-size: 34px;
+/*	color: #052B49;*/
+/*	font-weight: normal;*/
+}
+
+/*#h3 {
+	font-size: 18px;
+	color: #052B49;
+	font-weight: lighter;
+}*/
+
+#h4 {
+	font-size: 14px;
+	color: #FC5C63;
+	
+}
+
+.colorcontainer {
+	top: 165%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.colorpallete {
+    margin-left: 3.5%;
+}
+
+.textboxcontainer {
+	top: 225%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.textbox {
+    margin-left: 1.5%;
+}
+
+.san {
+    margin-left: 11.5%;
+    position: absolute;
+    top: 12%;
+    opacity: .5;
+}
+
+.blink {
+    margin-left: 17.5%;
+    position: absolute;
+    top: 11%;
+    opacity: 0;
+  	animation: blinking 1s linear infinite;
+}
+
+@keyframes blinking {
+  from,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: .3;
+  }
+}
+
+.blink p {
+	font-size: 25px;
+}
+
+.iconcontainer {
+	top: 255%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.iconlocation {
+    margin-left: 7.5%;
+    top: 10%;
+    position: absolute;
+}
+
+.icondepart {
+    margin-left: 40.5%;
+    top: 10%;
+    position: absolute;
+}
+
+
+.iconarrival {
+    margin-left: 72.5%;
+    top: 10%;
+    position: absolute;
+}
+
+.iconhome {
+    margin-left: 104.5%;
+    top: 10%;
+    position: absolute;
+}
+
+.iconcontainer img {
+	margin-left: -20%;
+}
+
+/*.iconhome img, .icondepart img, .iconarrival img, .iconhome img {
+	opacity: .5;
+}*/
+
+.icondepart :active, .iconarrival:active, .iconhome:active {
+	opacity: 1;
+}
+
+
+.iconcontainer p {
+	opacity: 1;
+}
+
+.ratingcontainer {
+	top: 295%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.star1 {
+    margin-left: 5.5%;
+    position: absolute;
+}
+
+.star2 {
+    margin-left: 14.5%;
+    position: absolute;
+}
+
+.star3 {
+    margin-left: 23.5%;
+    position: absolute;
+}
+
+.star4 {
+    margin-left: 32.5%;
+    position: absolute;
+}
+
+.staroutline {
+    margin-left: 41.5%;
+    position: absolute;
+}
+
+.star5 {
+    margin-left: 41.5%;
+    position: absolute;
+    display: none;
+}
+
+.star5:hover .star5 {
+	display: block;
+}
+
+
+.checkboxcontainer {
+	top: 325%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.checkbox {
+    margin-left: -8.5%;
+    position: absolute;
+    top: 5%;
+}
+
+.buttoncontainer {
+	top: 355%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.button1 {
+	border: 2px solid #56B8BE;
+	width: 100px;
+    height: auto;
+    background-color: #56B8BE;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    border-radius: 5px;
+}
+
+.button1 p {
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 9px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.button2 {
+	border: 2px solid #125864;
+	width: 100px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top: 13%;
+    left: 37%;
+    border-radius: 5px;
+}
+
+.button2 p {
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 9px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.button3 {
+	border: 2px solid #125864;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top: 13%;
+    left: 67%;
+    border-radius: 5px;
+}
+
+.button3 p {
+    font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 9px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.apply {
+	border: 2px solid #56B8BE;
+    width: 185px;
+    height: auto;
+    background-color: #56B8BE;
+    position: absolute;
+    top: 21%;
+    left: 6.5%;
+    border-radius: 5px;
+}
+
+.apply p {
+	font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 17px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.apply:hover {
+	border: 2px solid #125864;
+    background-color: white;
+
+}
+
+.apply {
+	cursor: pointer;
+}
+
+.apply:active {
+  border: 2px solid #125864;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+  }
+
+.button2container {
+	top: 405%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.secbutton {
+	margin-left: -57.5%;
+    position: absolute;
+    top: 9%;
+}
+
+.imagecontainer {
+	top: 450%;
+	left: 3%;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+
+.image1 {
+	margin-left: 3%;
+    position: absolute;
+    top: 9%;
+}
+
+.imagehover {
+	margin-left: 3%;
+    position: absolute;
+    top: 9%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.imagehover:hover {
+	opacity: 1;
+	  transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+
+.componentcontainer {
+	top: 530%;
+	left: 3%;
+	width:500px;
+	height: auto;
+	position: absolute;
+}
+.componentcontainer p {
+	font-weight: 600;
+	font-variant: small-caps;
+	color: #3F5387;
+}
+
+.book1 {
+	margin-left: 3%;
+    position: absolute;
+    top: 105%;
+}
+
+.book2 {
+	margin-left: 3%;
+    position: absolute;
+    top: 455%;
+}
+
+.book3 {
+	margin-left: 3%;
+    position: absolute;
+    top: 905%;
+}
+
+.book4 {
+	margin-left: 3%;
+    position: absolute;
+    top: 1300%;
+}
+
+.thumbnail1 {
+	/*border: 1px solid black;*/
+    margin-left: 6%;
+    position: absolute;
+    top: 1707%;
+    width: 424px;
+}
+
+.thumbnail2 {
+	/*border: 1px solid black;*/
+	margin-left: 7.5%;
+    position: absolute;
+    top: 2171%;
+    width: 526px;
+}
+
+.gridcontainer {
+	top: 895%;
+	left: 3%;
+	width:500px;
+	height: auto;
+	position: absolute;
+}
+.gridcontainer p {
+	font-weight: 600;
+	font-variant: small-caps;
+	color: #3F5387;
+}
+
+.web1display {
+    top: 140%;
+    left: 0%;
+    position: absolute;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.web2display {	
+    top: 180%;
+    left: 50%;
+    position: absolute;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.iphonedisplay1 {
+    top: 7%;
+    left: 180%;
+    position: absolute;
+
+}
+
+.iphonedisplay2 {	
+     top: 537%;
+    left: 180%;
+    position: absolute;
+
+
+}
+
+.web1 {
+    top: 1200%;
+    left: -5%;
+    position: absolute;
+
+}
+
+.web2 {
+	width: auto;
+    height: 70%;
+    top: 3060%;
+    left: -4%;
+    position: absolute;
+
+}
+
+.phone1 {
+    top: 5020%;
+    left: 25%;
+    position: absolute;
+
+}
+
+.phone2 {
+    top: 5020%;
+    left: 150%;
+    position: absolute;
+
+}
+
+
+
+.typeface {
+	    left: 14%;
+    top: 30%;
+    position: absolute;
+}
+
+.style {
+	position: absolute;
+	left: 5%;
+	top: 75%;
+	line-height: 75px;
+}
+
+
+
