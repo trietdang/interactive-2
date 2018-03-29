@@ -232,14 +232,25 @@ p {
 	margin-left: -20%;
 }
 
-/*.iconhome img, .icondepart img, .iconarrival img, .iconhome img {
+.iconhome img, .icondepart img, .iconarrival img, .iconhome img {
 	opacity: .5;
-}*/
+	cursor: pointer;
+}
+}
 
-.icondepart :active, .iconarrival:active, .iconhome:active {
+.icondepart :active, .iconhome:active {
 	opacity: 1;
 }
 
+
+/*cursor*/
+.icondepart :active, .iconhome:active, .iconarrival:active {
+	opacity: 1;
+}
+
+.iconarrival:active {
+	opacity: 1;
+}
 
 .iconcontainer p {
 	opacity: 1;
@@ -281,11 +292,15 @@ p {
 .star5 {
     margin-left: 41.5%;
     position: absolute;
-    display: none;
+    opacity: 0;
 }
 
-.star5:hover .star5 {
-	display: block;
+.star5:active {
+	opacity: 1;
+}
+
+.star5:focus {
+	opacity: 1;
 }
 
 
